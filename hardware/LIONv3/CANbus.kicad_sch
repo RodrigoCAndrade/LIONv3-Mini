@@ -2183,6 +2183,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C227152"
+			(at 139.7 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30f1a9a5-a17c-46cb-88b3-1a402b833247")
 		)
@@ -2254,6 +2265,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 163.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C227152"
+			(at 163.83 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
