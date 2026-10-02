@@ -8366,6 +8366,16 @@
 		)
 		(uuid "0127f727-aab6-4539-8100-0eb679b64f32")
 	)
+	(label "I2C_SCL"
+		(at 256.54 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "018a2c2e-57fa-47d7-b114-e9e057d550b1")
+	)
 	(label "LR_BUSY"
 		(at 45.72 49.53 180)
 		(effects
@@ -8405,16 +8415,6 @@
 			(justify right bottom)
 		)
 		(uuid "13e2cd1b-34fa-4549-bc4a-e0493a520343")
-	)
-	(label "I2C_SCL"
-		(at 256.54 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17e74957-dee4-4269-a371-3f20e320e443")
 	)
 	(label "CAN_N"
 		(at 45.72 116.84 180)
@@ -8665,6 +8665,16 @@
 			(justify left bottom)
 		)
 		(uuid "8a9bdbc4-cd7b-4337-9672-86b7367dc625")
+	)
+	(label "I2C_SDA"
+		(at 256.54 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c73ee86-7ff5-4727-8f50-d16e1ec4a511")
 	)
 	(label "INA_ALERT"
 		(at 45.72 99.06 180)
@@ -8935,16 +8945,6 @@
 			(justify left bottom)
 		)
 		(uuid "fdda807e-6e5c-455f-8252-742b649c19e9")
-	)
-	(label "I2C_SDA"
-		(at 256.54 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff27fa16-bf0b-4c5b-ab09-6617491bb6fc")
 	)
 	(netclass_flag ""
 		(length 2.54)
