@@ -78,9 +78,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.4,
-          "width": 0.8
+          "drill": 0.700025,
+          "height": 0.700025,
+          "width": 0.700025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -172,7 +172,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -252,6 +252,7 @@
         0.0,
         0.2,
         0.3,
+        0.4,
         6.0
       ],
       "tuning_pattern_settings": {
@@ -578,13 +579,14 @@
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2062,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
+        "diff_pair_width": 0.31,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -608,7 +610,7 @@
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.27,
+        "track_width": 0.3843,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -870,7 +872,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "R30-36,#FLG7,D10,#PWR48,#PWR53-54,#PWR59,#PWR62-69,C23-27,U12-13,U16",
     "variants": []
   },
   "sheets": [
@@ -889,6 +891,10 @@
     [
       "732ad377-cd6b-418c-b5b5-46888f6f133e",
       "CANbus"
+    ],
+    [
+      "e70aa0b3-0a39-4d3e-a096-beb19fc9fc0d",
+      "Block Diagram"
     ]
   ],
   "text_variables": {},

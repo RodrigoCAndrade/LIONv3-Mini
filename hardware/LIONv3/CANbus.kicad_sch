@@ -8,11 +8,11 @@
 		(title "LIONv3")
 		(date "2026-08-12")
 		(rev "1.0")
-		(comment 1 "v3-Rodrigo")
+		(comment 1 "v3-MINI")
 		(comment 2 "Rodrigo Andrade")
 		(comment 3 "2026-08-12")
 		(comment 4 "Rodrigo Andrade")
-		(comment 5 "2026-09-14")
+		(comment 5 "2026-10-04")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

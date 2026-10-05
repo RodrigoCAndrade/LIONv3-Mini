@@ -8,136 +8,13 @@
 		(title "LIONv3")
 		(date "2026-08-12")
 		(rev "1.0")
-		(comment 1 "v3-Rodrigo")
+		(comment 1 "v3-MINI")
 		(comment 2 "Rodrigo Andrade")
 		(comment 3 "2026-08-12")
 		(comment 4 "Rodrigo Andrade")
-		(comment 5 "2026-09-14")
+		(comment 5 "2026-10-04")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Square"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Square"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_Square_0_1"
-				(rectangle
-					(start -0.762 0.762)
-					(end 0.762 -0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Square_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2188,17 +2065,6 @@
 		)
 		(uuid "af8bdfee-6250-4e8c-8ae8-ca16967f664b")
 	)
-	(text "LATCH CONNECTORS (NO reverse-polarity)\nmates in one orientation only"
-		(exclude_from_sim no)
-		(at 16.51 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2ce98fb-bfb9-44c5-a93d-439ba9b40fd6")
-	)
 	(text "YLRY06-1-50F"
 		(exclude_from_sim no)
 		(at 247.65 93.98 0)
@@ -2448,12 +2314,6 @@
 		(uuid "9e5063e2-9521-4a06-b043-402c65be6cc5")
 	)
 	(junction
-		(at 81.28 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a423b657-3202-41ec-9cf9-43ba2e73e5a3")
-	)
-	(junction
 		(at 116.84 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2634,16 +2494,6 @@
 			(type default)
 		)
 		(uuid "15c02b2f-a93f-4037-9a43-400e456f7b7a")
-	)
-	(wire
-		(pts
-			(xy 81.28 30.48) (xy 81.28 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16315319-b1ee-4027-a5cf-93ffd296403c")
 	)
 	(wire
 		(pts
@@ -3047,16 +2897,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 39.37) (xy 176.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e54c4b7-92e5-4461-87fe-9c72c37bacb2")
-	)
-	(wire
-		(pts
 			(xy 198.12 25.4) (xy 203.2 25.4)
 		)
 		(stroke
@@ -3097,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 87.63 40.64)
+			(xy 78.74 40.64) (xy 87.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3184,6 +3024,16 @@
 			(type default)
 		)
 		(uuid "7ff73fc5-cdce-4a54-b4f3-f92ce5c1e2be")
+	)
+	(wire
+		(pts
+			(xy 176.53 39.37) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8340774d-f619-4318-a53f-43cc363e69c8")
 	)
 	(wire
 		(pts
@@ -3334,16 +3184,6 @@
 			(type default)
 		)
 		(uuid "a7c5bcd0-a141-4295-b1e3-196fdb778a30")
-	)
-	(wire
-		(pts
-			(xy 78.74 40.64) (xy 81.28 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7cbdbed-4919-4540-8eae-53a2fbbd9497")
 	)
 	(wire
 		(pts
@@ -3554,16 +3394,6 @@
 			(type default)
 		)
 		(uuid "d7356aa0-2745-4648-b679-2999d681de87")
-	)
-	(wire
-		(pts
-			(xy 189.23 20.32) (xy 189.23 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d942c2f4-22e7-46b8-808f-c08d2aed8652")
 	)
 	(wire
 		(pts
@@ -5505,85 +5335,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Square")
-		(at 189.23 20.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b1ab6c7-bed6-4d36-b130-420294c79bd1")
-		(property "Reference" "TP10"
-			(at 187.96 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Square"
-			(at 186.69 19.0501 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 184.15 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f9d7125-eea0-4e51-ad06-2fa8393b3f9c")
-		)
-		(instances
-			(project "LIONv3"
-				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LIONv3-Symbols:TLV76733DRVR")
 		(at 59.69 44.45 0)
 		(unit 1)
@@ -6028,85 +5779,6 @@
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Square")
-		(at 176.53 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66d196e7-7b40-4948-ac78-ab7a5f25fb99")
-		(property "Reference" "TP12"
-			(at 175.26 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Square"
-			(at 173.99 48.2601 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 171.45 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b79c1037-b80b-4795-a97c-57807b3ba803")
-		)
-		(instances
-			(project "LIONv3"
-				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7684,85 +7356,6 @@
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Square")
-		(at 81.28 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e24d2c70-a2bc-45fa-8e02-769138bc17b2")
-		(property "Reference" "TP11"
-			(at 80.01 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Square"
-			(at 78.74 29.2101 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 76.2 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 81.28 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e80177dc-e13f-46ab-bfe2-a6cfe2457df2")
-		)
-		(instances
-			(project "LIONv3"
-				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
-					(reference "TP11")
 					(unit 1)
 				)
 			)

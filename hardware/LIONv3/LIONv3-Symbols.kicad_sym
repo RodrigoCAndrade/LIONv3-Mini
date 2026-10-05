@@ -8,8 +8,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U4"
-			(at 5.588 1.27 0)
+		(property "Reference" "J1"
+			(at 1.27 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,10 +19,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "532610271_C177225"
+		(property "Value" "532610271"
 			(at 5.588 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,7 +31,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIONv3-Symbols:CONN-SMD_532610271"
+		(property "Footprint" "LIONv3-Footprints:CONN-SMD_532610271"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
