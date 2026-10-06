@@ -31333,7 +31333,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "50,175"
+		(gr_text "50.175"
 			(at 142.9925 125.055 0)
 			(layer "Dwgs.User")
 			(uuid "d675e09a-637c-4e42-a5b4-d1b4c9c3b282")
